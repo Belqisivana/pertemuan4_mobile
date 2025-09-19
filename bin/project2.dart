@@ -14,7 +14,8 @@ void main(List<String> arguments) {
   var gl= [1,2,3];
   gl.add(4);
 
+  gl.remove(2);
   
-  stdout.writeln(fl);
+  stdout.writeln(gl);
   //List<int> angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 }
