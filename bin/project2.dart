@@ -10,8 +10,9 @@ void main(List<String> arguments) {
   fl[1] = 2;
   fl[2] = 3;
   fl[3] = 4;
-  fl[4] = 5;
   //cetak
+  var gl= [1,2,3];
+  gl.add(4);
 
   
   stdout.writeln(fl);
